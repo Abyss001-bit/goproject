@@ -1,0 +1,126 @@
+/* pages/main/main.wxss */
+/* 第一部分 */
+.carousel-view{
+  position: relative;
+  width: 85%;
+  margin-left: 7.5%;
+  height: 137px;
+  /* border: #DD524D solid 1px; */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.swiper-container{
+position: relative;
+}
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper{
+height: 137px;
+}
+.swiper-container .swiper .img{
+width: 100%;
+height: 100%;
+}
+.carousel-text{
+  width: auto;
+  height: 85upx;
+  line-height: 85upx;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20;
+}
+
+/* 第二部分 */
+.content_1{
+  position: relative;
+  width: 85%;
+  height: 100px;
+  margin-left: 7.5%;
+  margin-top: 10%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.content_1 view{
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  width: 50px;
+  height: 80px;
+  line-height: 30px;
+  text-align: center;
+  /* border: #000000 solid 1px; */
+}
+.content_1 image{
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /* border: #000000 solid 1px; */
+}
+
+.content_2{
+  position: relative;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 2%;
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+.content_2 text{
+  display: block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 5%;
+  
+}
+.content_2 .listview view{
+  z-index: -1;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  width: 40%;
+  height: 80px;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  /* border: #000000 solid 1px; */
+}
+.content_2 .listview view text{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 4px;
+  margin-left: 4px;
+  /* border: #000000 solid 1px; */
+}
+/* 第三部分 */
+.buttom_bar{
+  z-index: 999;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 30px;
+  border: red solid 1upx;
+}
+.buttom_bar view{
+  z-index: 999;
+  display: inline-block;
+  width: 25%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #999794;
+  background-color: #fafafa;
+}
+.buttom_bar view:hover{
+  z-index: 999;
+  color: #000000;
+}

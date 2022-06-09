@@ -1,0 +1,54 @@
+/* Admins/daoru/daoru.wxss */
+.all{
+  position: relative;
+  margin-top: 0%;
+  width: auto;
+  height: 600px;
+  background: linear-gradient(rgb(236, 253, 253), rgb(207, 243, 250)); 
+  /* background-color: rgb(50, 213, 241); */
+}
+
+.contain{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  height: 200px;
+	border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.contain view{
+  margin-top: 3px;
+  height: 30px;
+  width: auto;
+  /* border: rebeccapurple solid 1px; */
+}
+.contain text{
+  display: inline-block;
+  height: 30px;
+  width: auto;
+  line-height: 30px;
+  float: left;
+  margin-right: 10px;
+  /* border: yellow solid 1px; */
+}
+
+.contain input{
+  display: inline-block;
+  /* border: red solid 1px; */
+  height: 30px;
+  width: auto;
+  border-bottom: rgb(77, 94, 97) solid 1px;
+}
+.contain .buttom{
+  display: inline-block;
+  width: 100px;
+  margin-left: 35%;
+  margin-top: 15px;
+  color: gray;
+}
+
+.contain .buttom:hover{
+  color: rgb(48, 164, 199);
+  border: rgb(48, 164, 199) solid 1px;
+}

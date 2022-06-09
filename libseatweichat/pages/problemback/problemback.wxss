@@ -1,0 +1,52 @@
+/* pages/problemback/problemback.wxss */
+.background{
+  width: auto;
+  height: 600px;
+  background-color: rgb(233, 248, 255);
+}
+text{
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  color: red;
+  /* border: black solid 1px; */
+}
+.fi{
+  margin-left: 10%;
+}
+.text{
+  width: 80%;
+  margin-left: 10%;
+  color: black;
+}
+.text text{
+  color: black;
+}
+.contentView{
+  border: black solid 1px;
+}
+.textarea_title{
+  margin-left: 20rpx;
+  color: gray
+}
+.textarea_bg{
+  padding: 0 25rpx;
+  background-color: #fff;
+}
+textarea{
+  width: 700rpx;
+  padding: 25rpx 0;
+} 
+
+image{
+  width:100%;
+  height: 200px;
+  border: black solid 1px;
+}
+button{
+  margin-top: 20px;
+  background-color: crimson;
+}
+button:hover{
+  background-color: rgb(15, 126, 201);
+}

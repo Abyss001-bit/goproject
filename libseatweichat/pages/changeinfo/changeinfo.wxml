@@ -1,0 +1,28 @@
+<!--pages/changeinfo/cahngeinfo.wxml-->
+<text class="titil">原始用户信息</text>
+<view class="contain" bindtap="requinfo">
+    <view><text>用户名：</text>{{name}}</view>
+    <view><text>密码：</text>{{password}}</view>
+    <view><text>微信：</text>{{weichat}}</view>
+    <view class="tou">
+    <text>用户头像：</text>
+    <image src="{{userimage}}" bindtap="choice"></image>
+    </view>
+</view>
+
+<text class="titil">修改用户信息</text>
+<view class="contain">
+<view><text>用户名：</text><input type="text" value="{{inputValue}}"  bindinput="name" placeholder="用户名"/></view>
+<view><text>密码：</text>  <input type="text" value="{{inputValue}}" bindinput="password" placeholder="密码"/></view>
+<view><text>微信：</text><input type="text" value="{{inputValue}}" bindinput="weichat" placeholder="微信号"/></view>
+
+<view class="tou">
+<text>用户头像：</text>
+  <view bindtap="choice" >
+  <image src="{{userimagetemp}}" mode="aspecFill"></image>
+  </view>
+
+</view>
+
+<button bindtap="submit">修改</button>
+</view>

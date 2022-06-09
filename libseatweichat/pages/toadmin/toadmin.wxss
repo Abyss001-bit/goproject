@@ -1,0 +1,28 @@
+/* pages/toadmin/toadmin.wxss */
+text{
+  display: block;
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10%;
+}
+.listview{
+  display: block;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 5%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.listview view{
+  display: block;
+  width: auto;
+  height: 80px;
+  line-height: 80px;
+  text-align: left;
+  margin-bottom: 5%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: rgb(240,248,255);
+}

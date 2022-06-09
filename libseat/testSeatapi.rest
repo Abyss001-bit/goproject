@@ -1,0 +1,80 @@
+# POST http://localhost:8080/admin/insertSeat
+# Content-Type: application/json
+
+# {
+#     "fenguan":"图书馆一",
+#     "louceng":"二楼",
+#     "bianhao":"A-4室",
+#     "number":4,
+#     "seatimage":""
+# }
+
+# POST http://localhost:8080/user/ShowHistory
+# Content-Type: application/json
+
+# {
+#     "status":0,
+#     "begintime":"",
+#     "endtime":"",
+#     "limit":10
+# }
+
+# POST http://localhost:8080/admin/deleteSeats
+# Content-Type: application/json
+
+# {
+#     "fenguan":"图书馆二",
+#     "louceng":"一楼",
+#     "bianhao":"A-1室",
+#     "number":23,
+#     "seatimage":""
+# }
+
+
+# POST http://localhost:8080/admin/changeSeatsInfo
+# Content-Type: application/json
+
+# {
+#     "id":"1653584318916",
+#     "fenguan":"图书馆一",
+#     "louceng":"一楼",
+#     "bianhao":"a1-1室",
+#     "number":1,
+#     "status":2
+# }
+
+
+
+POST http://localhost:8080/user/showSeatInfo
+Content-Type: application/json
+
+
+# POST http://localhost:8080/user/ShowFenguanName
+# Content-Type: application/json
+
+# POST http://localhost:8080/user/ShowFenguanNumber
+# Content-Type: application/json
+
+# {
+    
+#     "fenguan": "图书馆三",
+#     "louceng": "二楼",
+#     "bianhao":"B-1室"
+
+# }
+
+# POST http://localhost:8080/user/signInSeat
+# Content-Type: application/json
+
+# {
+#     "fenguan":"图书馆一",
+#     "louceng":"一楼",
+#     "bianhao":"A-1室",
+#     "number":15,
+#     "status":0,
+#     "signbegin":true,
+#     "signend":true,
+#     "begintime":"2022-5-16 8:00",
+#     "endtime":"2022-5-16 12:00"
+# }
+

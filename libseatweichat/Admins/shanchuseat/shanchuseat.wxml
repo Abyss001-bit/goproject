@@ -1,0 +1,14 @@
+<!--Admins/daoru/daoru.wxml-->
+<view class="all">
+  <view bindtap="tooneseat">
+  <text>删除单个座位</text>
+  </view>
+
+  <view bindtap="tomoreseat">
+  <text>删除多个座位</text>
+  </view>
+
+  <view bindtap="toall">
+  <text>删除所有座位</text>
+  </view>
+</view>

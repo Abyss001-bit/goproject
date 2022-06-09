@@ -1,0 +1,42 @@
+<!-- <view class="all"> -->
+
+<!--pages/login/login.wxml-->
+<!-- 第一部分 -->
+<view class="logo">
+  <view class="logo_box">
+    <text>请登录</text>
+    <text>Please Login Your Account</text>
+  </view>
+</view>
+ 
+    <!-- 第二部分 -->
+<view class="content">
+			<view class="login_from">
+      <form bindsubmit="submit" method="post">
+				<view class="from">
+					<input name ="name" type="text" placeholder="用户名" bindinput="nameInput"/>
+				</view>
+				<view class="from">
+					<input  name="password" type="password" placeholder="密码" bindinput="passwordInput"/>
+				</view>
+				<button form-type="submit">登  录</button>
+      </form>
+				<view class="login_a">
+					<view>
+					    <text bindtap='onTapRegister'>注册账号</text>
+					</view>
+					<view>
+						<text bindtap='onTapFindbackpassword'>找回密码</text>
+					</view>
+				</view>
+			</view>
+</view>
+
+    <!-- 第三部分 -->
+<view class="version">
+			<text>@Abyss v1.0</text>
+</view>
+
+<!-- 
+</view> -->
+

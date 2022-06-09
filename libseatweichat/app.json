@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "Admins/admin/admin",
+    "Admins/code/code",
+    "Admins/daoru/daoru",
+    "Admins/moreseat/moreseat",
+    "Admins/oneseat/oneseat",
+    "Admins/xiugai/xiugai",
+    "Admins/shanchuseat/shanchuseat",
+    "Admins/moredeleteseat/moredeleteseat",
+    "Admins/onedeleteseat/onedeleteseat",
+    
+    
+
+    "Admins/huifu/huifu",
+    "Admins/heimingdan/heimingdan",
+    "Admins/xiugaiuser/xiugaiuser",
+    
+    
+
+    "pages/tuijian/tuijian",
+    "pages/recom/recom",
+    
+    "pages/findbackpassword/findbackpassword",
+    "pages/register/register",
+    "pages/changeinfo/changeinfo",
+    "pages/problemback/problemback",
+    "pages/quxiao/quxiao",
+    "pages/toadmin/toadmin",
+    "pages/history/history",
+    "pages/mine/mine",
+    "pages/setting/setting",
+    "pages/aboutme/aboutme",
+    "pages/moremsg/moremsg",
+    
+    
+    "Admins/alldeleteseat/alldeleteseat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "座位预约",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

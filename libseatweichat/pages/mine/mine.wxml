@@ -1,0 +1,37 @@
+<!--pages/mine/mine.wxml-->
+<!-- 第一部分 -->
+<view class="logo">
+			<view class="logo_size" bindtap="requinfo">
+				<view class="msg">
+					<text>{{name}}</text>
+					<text>积分：{{integral}}</text>
+				</view>
+				<view class="touxiang">
+					<image src="{{user_image}}" alt="" />
+				</view>
+			</view>
+</view>
+
+<!-- 第二部分 -->
+<view class="content">
+			<view class="c" bindtap="tofuwu">
+				<image src="../../static/问题反馈.png" alt="" />
+				<p>服务(问题反馈)</p>
+      </view>
+      
+			<view class="c" bindtap="tosetting">
+				<image src="../../static/设置.png" alt="" />
+				<p>设置</p>
+			</view>
+		
+			<view class="c" bindtap="toadmin">
+				<image src="../../static/联系管理员.png" alt="" />
+				<p>联系管理员</p>
+			</view>
+			
+				<view class="c" bindtap="toaboutme">
+					<image src="../../static/关于我们.png" alt="" />
+					<p>关于我们</p>
+				</view>
+		
+</view>

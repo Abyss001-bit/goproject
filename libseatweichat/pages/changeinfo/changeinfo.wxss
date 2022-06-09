@@ -1,0 +1,60 @@
+/* pages/changeinfo/cahngeinfo.wxss */
+.titil{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  /* border: red solid 1px; */
+}
+.contain{
+  position: relative;
+  margin-left: 10%;
+  width: 80%;
+  height: 210px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+}
+
+.contain view{
+  height: 40px;
+  line-height: 40px;
+  /* border: rgb(10, 8, 8) solid 1px; */
+}
+.contain .tou{
+  margin-right: 10px;
+  width: auto;
+  height: 80px;
+  /* border: rgb(10, 8, 8) solid 1px; */
+}
+image{
+  position: relative;
+  float: right;
+  width:80px;
+  height: 80px;
+  border-radius: 15px;
+  border: rgb(248, 214, 214) solid 1px;
+}
+.contain text{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  /* border: red solid 1px; */
+}
+.contain input{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 180px;
+  /* float: right; */
+  /* border: red solid 1px; */
+}
+button{
+  margin-top: 40px;
+}
+button:hover{
+  border: royalblue solid 1px;
+}

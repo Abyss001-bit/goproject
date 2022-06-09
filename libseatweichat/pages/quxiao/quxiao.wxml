@@ -1,0 +1,19 @@
+<!--pages/quxiao/quxiao.wxml-->
+<scroll-view class="list_history"  scroll-y style="height: 500px;">
+  <block wx:for="{{historylist}}" data-item="item">
+  <!-- 0 已完成
+  1 待完成
+  2 完成中 扫码一次 
+  3 爽约未完成 -->
+    <view class="msg" bindtap="deleteyuyue" data-index="{{index}}">
+      <text decode="{{true}}">时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 间：     {{item.Date}}</text>
+      <text decode="{{true}}">开始时间：      {{item.Begintime}}</text>
+      <text decode="{{true}}">结束时间：      {{item.Endtime}}</text>
+      <text decode="{{true}}">馆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 号：      {{item.Fenguan}}</text>
+      <text decode="{{true}}">楼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 层：      {{item.Louceng}}</text>
+      <text decode="{{true}}">室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 号：      {{item.Bianhao}}</text>
+      <text decode="{{true}}">编&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 号：      {{item.Number}}</text>
+      <text decode="{{true}}">状&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 态：      {{item.Status}}</text>
+    </view>
+  </block>
+</scroll-view>

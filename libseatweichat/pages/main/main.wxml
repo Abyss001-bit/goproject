@@ -1,0 +1,65 @@
+<!--pages/main/main.wxml-->
+<!-- 第一部分 -->
+<view class="carousel-view">
+		<!-- 自定义轮播图 -->
+		<view class="swiper-container">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+        <block wx:for="{{imgUrls}}" wx:key="unique">
+          <swiper-item>
+            <image src="{{item}}" class="img" bindtap="swipclick" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+			<!-- 自定义文字 -->
+    <view class="carousel-text">
+      西南石油大学
+    </view>
+</view>
+
+<!-- 第二部分 -->
+<view class="content">
+			<view class="content_1">
+				<view class="sign" bindtap="qiandao">
+					<image src="../../static/扫码.png" alt="" />
+					<text>签到</text>
+				</view>
+				<view class="Rechoice" bindtap="tuijian">
+					<image src="../../static/推荐.png" alt="" />
+						<text>推荐</text>
+				</view>
+				<view class="Rechoice" bindtap="quxiao">
+					<image src="../../static/删除取消.png" alt="" />
+						<text>取消</text>
+				</view>
+			</view>
+			<view class="content_2">
+				<text>各馆座位信息</text>
+        <view class="listview">
+						<block wx:for="{{seatlist}}">
+							<view bindtap="tomoremsg" data-index="{{index}}">
+								<text>{{item.Fenname}}</text>
+            		<text>空/总座:{{item.Kongseatnum}}/{{item.Fenallseatnum}}</text>
+							</view>
+					</block>
+				</view>
+			</view>
+</view>
+
+<!-- 第三部分 -->
+<!-- 第三部分 -->
+<view class="buttom_bar">
+			<view>
+				<tabBar bindtap="gotoreload">首页</tabBar>
+			</view>
+			<view>
+				<tabBar bindtap="gotore">预约</tabBar>
+			</view>
+			<view>
+				<tabBar bindtap="gotohis">历史</tabBar>
+			</view>
+			<view>
+				<tabBar bindtap="gotomine">我的</tabBar>
+			</view>
+</view>
+    

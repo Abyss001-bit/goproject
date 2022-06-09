@@ -1,0 +1,54 @@
+/* pages/history/history.wxss */
+.text{
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  /* border: red solid 1px; */
+}
+.bar{
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+  height: 40px;
+  background-color: rgb(210, 209, 211);
+}
+.del{
+  display: inline-block;
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color:black;
+}
+.del:hover{
+  color: blue;
+}
+.list_history{
+  position: relative;
+  width: 90%;
+  /* height: 500px; */
+  margin-left: 5%;
+  /* margin-top: 5px; */
+  /* border: blue solid 1px; */
+  border-radius: 15px;
+}
+.list_history view{ 
+	border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: 180px;
+  margin-top: 5px;
+  /* background: linear-gradient(rgb(87, 255, 255), rgb(0, 255, 106));  */
+}
+.list_history view text{
+  display: block;
+  width: auto;
+  height: 22px;
+  line-height: 22px;
+  margin-left: 10%;
+  /* background-color: rgb(50, 213, 241); */
+/* border: rgb(131, 13, 13) solid 1px; */
+}

@@ -1,0 +1,90 @@
+# POST http://localhost:8080/user/sendCode
+# Content-Type: application/json
+
+# {
+#     "phonenumber":"12312312312"
+# }
+
+
+# POST http://localhost:8080/admin/registerBypassword
+# Content-Type: application/json
+
+# {
+#     "name":"admin",
+#     "password":"admin",
+#     "phonenumber":"12312312312",
+#     "code":"5533"
+# }
+
+
+# POST http://localhost:8080/user/findbackpassword
+# Content-Type: application/json
+
+# {
+#     "password":"111111",
+#     "phonenumber":"12552487156",
+#     "code":"2104"
+# }
+
+
+
+# POST http://localhost:8080/user/showAdminUserInfo
+# Content-Type: application/json
+
+# {
+#     "name": "蒋文勋",
+#     "password":"qweqwe"
+# }
+
+# POST http://localhost:8080/user/showUserInfo
+# Content-Type: application/json
+
+
+
+# POST http://localhost:8080/user/loginBypassword
+# Content-Type: application/json
+
+# {
+#     "name":"tanrong",
+#     "password":"1q1q1q"
+# }
+
+
+
+
+# POST http://localhost:8080/user/loginOut
+# Content-Type: application/json
+
+
+
+
+# POST http://localhost:8080/user/changeUserInfo
+# Content-Type: application/json
+
+# {
+#     "name": "蒋文勋",
+#     "password": "qqqqqq",
+#     "weichat": "tr-850",
+#     "userimage": ""
+# }
+
+
+
+
+
+
+
+# -----------------------------------------------------------------------------------------------------------------
+# 更改信息可以改name、password、userimage
+# 不可更改id、admin、integral、phonenumber
+
+# POST http://localhost:8080/user/changeUserInfo
+# Content-Type: application/json
+
+# {
+#     "Name": "张四",
+#     "Password": "qwe",
+#     "userimage":""  
+# }
+
+

@@ -1,0 +1,23 @@
+<!--Admins/daoru/daoru.wxml-->
+<view class="all">
+  <text>添加多个座位</text>
+  <view class="contain">
+    <view>
+    <text>添加馆号信息</text><input type="text" placeholder="图书馆名" name="fenguan" bindinput="fenguanInput"/>
+    </view>
+
+    <view>
+    <text>添加楼层信息</text><input type="text" placeholder="楼层" name="louceng" bindinput="loucengInput"/>
+    </view>
+
+    <view>
+    <text>添加室号信息</text><input type="text" placeholder="室号" name="bianhao" bindinput="bianhaoInput"/>
+    </view>
+
+    <view>
+    <text>添加总编号信息</text><input type="number" placeholder="座位号" name="numbercount"    bindinput="numbercountInput"/>
+    </view>
+
+    <button class="buttom" bindtap="submit">确认</button>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/toadmin/toadmin.wxml-->
+<text>管理员姓名和电话:</text>
+<view class="listview">
+		<block wx:for="{{adminlist}}">
+		<view>
+		<text decode="{{true}}">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：{{item.Name}}</text>
+		<text decode="{{true}}">电话号码：{{item.Phonenumber}}</text>
+		</view>
+		</block>
+	</view>

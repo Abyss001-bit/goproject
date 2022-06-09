@@ -1,0 +1,14 @@
+<!--Admins/daoru/daoru.wxml-->
+<view class="all">
+  <view bindtap="tooneseat">
+  <text>添加单个座位</text>
+  </view>
+
+  <view bindtap="tomoreseat">
+  <text>添加多个座位</text>
+  </view>
+
+  <view bindtap="tofileseat">
+  <text>导入文件添加座位</text>
+  </view>
+</view>

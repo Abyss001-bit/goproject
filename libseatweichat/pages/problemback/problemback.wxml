@@ -1,0 +1,20 @@
+<!--pages/problemback/problemback.wxml-->
+<view class="background">
+
+<text class="fi">反馈举报</text>
+<view class=".text">
+<text>请输入反馈内容：</text>
+<view class="contentView">
+  <view class="textarea_bg">
+    <textarea bindinput="textareaInput2" style="height: 6em;width: auto;" maxlength="-1"  placeholder="请输入..." />
+  </view>
+</view>
+<text>添加图片：</text>
+<view bindtap="choice">
+<image src="{{tempFilePath}}" mode="aspecFill"></image>
+</view>
+<button bindtap="submit">提交</button>
+</view>
+
+
+</view>

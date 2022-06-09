@@ -1,0 +1,15 @@
+/* pages/setting/setting.wxss */
+.content view{
+  margin-top: 3%;
+  height: 40px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  text-indent: 5%;
+  line-height: 40px;
+  border-bottom: gray solid 1px;
+  border-top: gray solid 1px;
+  background-color: rgb(240,248,255);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}

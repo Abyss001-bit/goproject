@@ -1,0 +1,7 @@
+<!--pages/setting/setting.wxml-->
+<view class="content">
+		<!-- 第一部分 -->
+		<view bindtap="tochangeinfo">修改信息</view>
+		<!-- 第二部分 -->
+		<view bindtap="tologout">退出登录</view>
+	</view>

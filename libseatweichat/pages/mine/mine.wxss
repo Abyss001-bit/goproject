@@ -1,0 +1,80 @@
+/* pages/mine/mine.wxss */
+.logo{
+  width: 100%;
+  height: 202px;
+  background-color: azure;
+}
+.logo_size{
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+  height: 120px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+
+}
+.logo .msg{
+  float: left;
+  display: inline-block;
+  width: 50%;
+  /* border: red solid 1px; */
+}
+.logo .msg text{
+  display: inline-block;
+  float: left;
+  margin-top: 5%;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  /* border: black solid 1px; */
+}
+.logo .touxiang image{
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* 第二部分 */
+.content{
+  position: relative;
+  margin-top: 10%;
+  /* margin-left: 10%; */
+  width: 100%;
+  height: 300px;
+  /* border: red solid 1px; */
+}
+.content .c{
+  height: 40px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  /* border: red solid 1px; */
+  border-radius: 20px;
+  border: rgba(248, 248, 248, 1) solid 1px;
+	border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.content view image{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  /* border: black solid 1px; */
+}
+
+.content p{
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  /* border: black solid 1px; */
+}

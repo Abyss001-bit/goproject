@@ -1,0 +1,8 @@
+/* pages/aboutme/aboutme.wxss */
+.me {
+  width: auto;
+  height: 100px;
+}
+text{
+  display: block;
+}

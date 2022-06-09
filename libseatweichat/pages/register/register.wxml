@@ -1,0 +1,26 @@
+<!-- <view class="all"> -->
+<!--pages/register/register.wxml-->
+
+<!-- 第一部分 -->
+<view class="logo">
+  <p>使用手机号注册</p>
+</view>
+<!-- 第二部分 -->
+<view class="content">
+  <form bindsubmit="submit" method="post">
+      <text>手机号码:</text>
+      <input name="phonenumber" type="text" placeholder="手机号"  bindinput="phoneInput" />
+      <text>账号昵称:</text>
+      <input name="name" type="text" placeholder="用户名" />
+      <text>账号密码:</text>
+      <input name="password" type="password" placeholder="密码" />
+      <label>
+        <text>验 证 码:</text>
+        <input name="code" type="text" placeholder="验证码" />
+        <button class="code" bindtap="sentcode" disabled="{{isClick}}" style="color:{{codeColor}};" >{{btnText}}</button>
+      </label>	
+			<button class="button" form-type="submit">注册</button>
+  </form>
+</view>
+
+<!-- </view> -->

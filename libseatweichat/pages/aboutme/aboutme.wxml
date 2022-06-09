@@ -1,0 +1,8 @@
+<!--pages/aboutme/aboutme.wxml-->
+<view>
+		<view class="me">
+			<text>本系统目前为初级系统，bug联系我方请github提交错误。</text>
+			<text>github地址:</text>
+			<text>https://github.com/Abyss001-bit</text>
+		</view>
+	</view>

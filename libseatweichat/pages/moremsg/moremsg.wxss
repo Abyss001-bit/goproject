@@ -1,0 +1,26 @@
+/* pages/tuijian/tuijian.wxss */
+.list_seat{
+  position: relative;
+  width: 90%;
+  /* height: 500px; */
+  margin-left: 5%;
+  /* margin-top: 5px; */
+  /* border: blue solid 1px; */
+  border-radius: 15px;
+}
+.list_seat view{ 
+	border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: 120px;
+  margin-top: 15px;
+  background: linear-gradient(rgb(248, 250, 250), rgb(230, 231, 230)); 
+}
+.list_seat view text{
+  display: block;
+  width: auto;
+  height: 22px;
+  line-height: 22px;
+  margin-left: 10%;
+/* border: rgb(131, 13, 13) solid 1px; */
+}

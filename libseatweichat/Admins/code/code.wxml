@@ -1,0 +1,30 @@
+<view class="all">
+  <text>生成单个座位二维码</text>
+  <view class="contain">
+    <view>
+    <text>馆号信息</text><input type="text" value="{{fenguan}}" placeholder="图书馆名" name="fenguan" bindinput="fenguanInput"/>
+    </view>
+
+    <view>
+    <text>楼层信息</text><input type="text" value="{{louceng}}" placeholder="楼层" name="louceng" bindinput="loucengInput"/>
+    </view>
+
+    <view>
+    <text>室号信息</text><input type="text" value="{{bianhao}}" placeholder="室号" name="bianhao" bindinput="bianhaoInput"/>
+    </view>
+
+    <view>
+    <text>编号信息</text><input type="number" value="{{number}}" placeholder="座位号" name="number" bindinput="numberInput"/>
+    </view>
+
+    <button class="buttom" bindtap="submit">确认</button>
+  </view>
+
+  <view class="code" hidden="{{istrue}}">
+	<canvas style="width: 200px; height: 200px;margin:0 auto" canvas-id="myQrcode"></canvas>
+  </view>
+
+</view>
+
+
+

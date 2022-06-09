@@ -1,0 +1,53 @@
+<view class="all">
+
+<!--pages/recom/recom.wxml-->
+<!-- 第一部分 -->
+<view class="tiaojian">
+  <form bindsubmit="submit" method="post">
+    <view>
+      <text>选择日期:</text>
+      <picker class="picker" mode="date" value="{{datetime}}" start="1999-01-01" end="2999-12-12" bindchange="datetime">
+      {{datetime}}
+      </picker>
+    </view>
+    <view>
+      <text>开始时间：</text>
+      <picker mode="time" value="{{begintime}}" start="00:00" end="24:00" bindchange="begintime">
+      {{begintime}}
+      </picker>
+    </view>
+    <view>
+      <text>结束时间：</text>
+      <picker mode="time" value="{{endtime}}" start="00:00" end="24:00" bindchange="endtime">
+      {{endtime}}
+      </picker>
+    </view>
+    <view class="picker1">
+      <text>选择馆号：</text>
+      <picker class="picker" value="{{indexfenguan}}" range= "{{fenguan}}" range-key="Fenguan" bindtap="fenguan" bindchange="changefenguan">
+		    {{fenguan[indexfenguan]['Fenguan']}}
+      </picker>
+    </view>
+    <view>
+      <text>选择楼层：</text>
+      <picker class="picker" value="{{indexlouceng}}" range= "{{louceng}}" range-key="Louceng" bindtap="louceng" bindchange="changelouceng">
+		    {{louceng[indexlouceng]['Louceng']}}
+      </picker>
+    </view>
+    <view>
+      <text>选择编号：</text>
+      <picker class="picker" value="{{indexbianhao}}" range= "{{bianhao}}" range-key="Bianhao" bindtap="bianhao" bindchange="changebianhao">
+		    {{bianhao[indexbianhao]['Bianhao']}}
+      </picker>
+    </view>
+    <view>
+      <text>选择座位：</text>
+      <picker class="picker" value="{{indexnumber}}" range= "{{number}}" range-key="Number" bindtap="number" bindchange="changenumber">
+		    {{number[indexnumber]['Number']}}
+      </picker>
+    </view>
+    <button form-type="submit">确认</button>
+  </form>
+</view>
+
+</view>
